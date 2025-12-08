@@ -37,7 +37,7 @@ const AboutSection = () => {
             </p>
             <div className="mt-6 pt-6 border-t border-border">
               <div className="flex flex-wrap gap-3">
-                {["AI/ML", "Systems Architecture", "AI Integration", "Problem Solving"].map((tag) => (
+                {["AI/ML", "Systems Architecture", "AI Integration", "Competitive Tennis"].map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-sm bg-muted text-muted-foreground rounded-sm"
