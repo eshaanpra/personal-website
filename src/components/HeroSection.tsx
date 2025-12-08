@@ -22,9 +22,9 @@ const HeroSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
-            <span className="text-foreground">Precision in Code.</span>
+            <span className="text-foreground">Eshaan Prashanth.</span>
             <br />
-            <span className="text-primary">Power on the Court.</span>
+            <span className="text-primary">Power + Efficiency.</span>
           </h1>
         </motion.div>
 

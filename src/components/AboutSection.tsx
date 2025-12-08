@@ -29,14 +29,15 @@ const AboutSection = () => {
               The Dual Focus.
             </h3>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I am an AI developer and competitive tennis player based in The Triangle, NC. 
-              Attending Crossroads Flex High School allows me to treat my education like a 
-              startup—balancing rigorous academics with a professional internship and athletic 
-              training. I build systems that learn, and I train to win.
+              Based in The Triangle, NC, I am an AI engineer and competitive tennis player. 
+              Attending Crossroads Flex High School allows me to optimize my schedule for maximum output. 
+              I utilize this opportunity to simultaneously push my limits on both the automation and athletic sectors.
+              As I learn and build real-life projects, my end goals include
+              working on the intersection between Machine Learning and Quantum Computing."
             </p>
             <div className="mt-6 pt-6 border-t border-border">
               <div className="flex flex-wrap gap-3">
-                {["AI/ML", "Systems Architecture", "Tennis", "Problem Solving"].map((tag) => (
+                {["AI/ML", "Systems Architecture", "AI Integration", "Problem Solving"].map((tag) => (
                   <span
                     key={tag}
                     className="px-3 py-1 text-sm bg-muted text-muted-foreground rounded-sm"
