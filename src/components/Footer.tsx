@@ -45,12 +45,12 @@ const Footer = () => {
             href="https://github.com/eshaanpra"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
-            whileHover={{ scale: 1.05 }}
+            className="flex items-center justify-center w-16 h-16 text-muted-foreground hover:text-foreground transition-colors group rounded-full border border-border shadow-lg bg-background text-3xl md:text-4xl"
+            whileHover={{ scale: 1.10 }}
             whileTap={{ scale: 0.95 }}
+            aria-label="GitHub"
           >
-            <Github className="w-5 h-5 group-hover:text-primary transition-colors" />
-            <span>github.com/eshaanpra</span>
+            <Github className="w-10 h-10 group-hover:text-primary transition-colors" />
           </motion.a>
 
           {/* LinkedIn */}
@@ -58,23 +58,23 @@ const Footer = () => {
             href="https://linkedin.com/in/eshaan-prashanth"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
-            whileHover={{ scale: 1.05 }}
+            className="flex items-center justify-center w-16 h-16 text-muted-foreground hover:text-foreground transition-colors group rounded-full border border-border shadow-lg bg-background text-3xl md:text-4xl"
+            whileHover={{ scale: 1.10 }}
             whileTap={{ scale: 0.95 }}
+            aria-label="LinkedIn"
           >
-            <Linkedin className="w-5 h-5 group-hover:text-primary transition-colors" />
-            <span>linkedin.com/in/eshaan-prashanth</span>
+            <Linkedin className="w-10 h-10 group-hover:text-primary transition-colors" />
           </motion.a>
 
           {/* Email */}
           <motion.button
             onClick={copyEmail}
-            className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group"
-            whileHover={{ scale: 1.05 }}
+            className="flex items-center justify-center w-16 h-16 text-muted-foreground hover:text-foreground transition-colors group rounded-full border border-border shadow-lg bg-background text-3xl md:text-4xl"
+            whileHover={{ scale: 1.10 }}
             whileTap={{ scale: 0.95 }}
+            aria-label="Copy Email"
           >
-            <Mail className="w-5 h-5 group-hover:text-primary transition-colors" />
-            <span>Click to copy email</span>
+            <Mail className="w-10 h-10 group-hover:text-primary transition-colors" />
           </motion.button>
         </motion.div>
 

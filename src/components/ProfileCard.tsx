@@ -48,7 +48,7 @@ const ProfileCard = () => {
             ))}
           </div>
           <p className="text-xs text-muted-foreground mt-6 text-center">
-            Click to flip
+            Flip for skills <span className="text-primary text-base ml-1">→</span>
           </p>
         </div>
 
@@ -57,12 +57,22 @@ const ProfileCard = () => {
           className="absolute inset-0 bg-card rounded-lg p-6 border border-primary/30 flex items-center justify-center"
           style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}
         >
-          <div className="text-center">
-            <p className="text-xl font-medium text-foreground leading-relaxed">
-              "Systems Thinking
-              <br />
-              <span className="text-primary">applied to everyday life.</span>"
-            </p>
+          <div className="w-full text-center">
+            <h3 className="text-lg font-bold text-primary mb-6">Technical Skills</h3>
+            <div className="space-y-4 text-foreground text-sm">
+              <div>
+                <span className="font-semibold">Languages & Frameworks:</span>
+                <span className="ml-2">Python, TypeScript, PyTorch</span>
+              </div>
+              <div>
+                <span className="font-semibold">Data & Backend:</span>
+                <span className="ml-2">PostgreSQL, REST APIs</span>
+              </div>
+              <div>
+                <span className="font-semibold">DevOps & Tools:</span>
+                <span className="ml-2">Docker, Git</span>
+              </div>
+            </div>
           </div>
         </div>
       </motion.div>
