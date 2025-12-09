@@ -33,7 +33,7 @@ const AboutSection = () => {
               Attending Crossroads Flex High School allows me to optimize my schedule for maximum output. 
               I utilize this opportunity to simultaneously push my limits on both the automation and athletic sectors.
               As I learn and build real-life projects, my end goals include
-              working on the intersection between Machine Learning and Quantum Computing."
+              working on the intersection between Machine Learning and Quantum Computing.
             </p>
             <div className="mt-6 pt-6 border-t border-border">
               <div className="flex flex-wrap gap-3">
